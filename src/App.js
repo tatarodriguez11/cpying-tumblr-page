@@ -14,11 +14,11 @@ class App extends Component {
     return (
       <div className="container-fluid" >
         <header className="App-header">
-          <Title>tumblr</Title>
+          <Title><img src="https://assets.tumblr.com/images/logo/logo_large.png?v=c06ff3d6b7e21ab866f0c1fa82b00331" alt="" /></Title>
           <Subtitle />
           <ButtonContainer>
-            <button type="button" class="btn btn-primary">Start</button>
-            <button type="button" class="btn btn-light">Login</button>
+            <button type="button" class="btn btn-primary" style={{ fontWeight: "600" }}>Start</button>
+            <button type="button" class="btn btn-light" style={{ fontWeight: "600" }}>Login</button>
           </ButtonContainer>
         </header>
 
