@@ -1,0 +1,9 @@
+
+.posted-by{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-end;
+  position: relative;
+  align-items: baseline
+}

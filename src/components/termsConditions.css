@@ -1,0 +1,5 @@
+.terms-conditions{
+  display: flex;
+  flex-direction: row;
+  width: 50%
+}
